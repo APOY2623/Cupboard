@@ -1,0 +1,38 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------< tw.mics.spigot.plugin.cupboard:Cupboard >---------------
+[INFO] Building Cupboard-4.1.4 4.1.4
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[WARNING] Could not transfer metadata org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [central (http://repo1.maven.org/maven2, default, releases+snapshots)]
+[WARNING] org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT/maven-metadata.xml failed to transfer from http://0.0.0.0/ during a previous attempt. This failure was cached in the local repository and resolution will not be reattempted until the update interval of maven-default-http-blocker has elapsed or updates are forced. Original error: Could not transfer metadata org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT/maven-metadata.xml from/to maven-default-http-blocker (http://0.0.0.0/): Blocked mirror for repositories: [central (http://repo1.maven.org/maven2, default, releases+snapshots)]
+[INFO] 
+[INFO] --- clean:3.2.0:clean (default-clean) @ Cupboard ---
+[INFO] Deleting /workspaces/Skript/cupboard-master/target
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ Cupboard ---
+[INFO] Copying 2 resources from src/main/resources to target/classes
+[INFO] 
+[INFO] --- compiler:3.8.1:compile (default-compile) @ Cupboard ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 18 source files to /workspaces/Skript/cupboard-master/target/classes
+[INFO] /workspaces/Skript/cupboard-master/src/main/java/tw/mics/spigot/plugin/cupboard/listener/GoldBlockListener.java: Some input files use or override a deprecated API.
+[INFO] /workspaces/Skript/cupboard-master/src/main/java/tw/mics/spigot/plugin/cupboard/listener/GoldBlockListener.java: Recompile with -Xlint:deprecation for details.
+[INFO] 
+[INFO] --- resources:3.3.1:testResources (default-testResources) @ Cupboard ---
+[INFO] skip non existing resourceDirectory /workspaces/Skript/cupboard-master/src/test/resources
+[INFO] 
+[INFO] --- compiler:3.8.1:testCompile (default-testCompile) @ Cupboard ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- surefire:3.2.5:test (default-test) @ Cupboard ---
+[INFO] No tests to run.
+[INFO] 
+[INFO] --- jar:3.4.1:jar (default-jar) @ Cupboard ---
+[INFO] Building jar: /workspaces/Skript/cupboard-master/target/Cupboard-4.1.4.jar
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  5.566 s
+[INFO] Finished at: 2025-07-03T09:22:24Z
+[INFO] ------------------------------------------------------------------------
