@@ -78,7 +78,7 @@ This plugin is tested and compatible with the following platforms:
 
 License
 
-(Specify your license here, e.g., MIT, GPL-3.0, etc.)
+MIT, GPL-3.0, etc.
 
 ⸻
 
